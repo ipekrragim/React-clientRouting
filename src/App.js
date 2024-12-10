@@ -8,12 +8,12 @@ function App(){
   return(
     <div className="App">
       <div className='menu'>
-      <NavLink to='/About'>About</NavLink>
+      <NavLink to='/'>About</NavLink>
       <NavLink to='/Contact'>Contact</NavLink>
       <NavLink to='/Job'>Job</NavLink>
       </div>
       <Routes>
-        <Route path='/About' element={<About />} />
+        <Route path='/' element={<About />} />
         <Route path='/Job' element={<Job />} />
         <Route path='/Contact' element={<Contact />} />
      </Routes>
