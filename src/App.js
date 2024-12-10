@@ -8,14 +8,14 @@ function App(){
   return(
     <div className="App">
       <div className='menu'>
-      <NavLink to='/About'>About</NavLink>
-      <NavLink to='/Contact'>Contact</NavLink>
-      <NavLink to='/Job'>Job</NavLink>
+ <NavLink to='/about'>About</NavLink>
+<NavLink to='/contact'>Contact</NavLink>
+<NavLink to='/job'>Job</NavLink>
       </div>
       <Routes>
-        <Route path='/About' element={<About />} />
-        <Route path='/Job' element={<Job />} />
-        <Route path='/Contact' element={<Contact />} />
+      <Route path='/about' element={<About />} />
+      <Route path='/job' element={<Job />} />
+      <Route path='/contact' element={<Contact />} />
      </Routes>
     </div>
   );
